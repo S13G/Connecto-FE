@@ -2,7 +2,7 @@
 
 ## Deployment Status
 
-This repo contains both the Front and Back end for the <a href="" target="blank">Connecto App</a>
+This repo contains both the Front and Back end for the <a href="#" >Connecto App</a>
 
 ## Current Setup (This project uses:)
 
