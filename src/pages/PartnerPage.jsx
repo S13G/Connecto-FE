@@ -1,28 +1,28 @@
 import React from "react";
 import styled from "styled-components";
+import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 import PartnerpageHero from "../component/PartnerpageHero";
 import image1 from "../images/car.png";
-import image2 from "../images/meter.png";
-import image3 from "../images/desktop.png";
-import image4 from "../images/schedule.png";
 import image5 from "../images/clock.png";
+import image3 from "../images/desktop.png";
 import image6 from "../images/lead-way.png";
+import image2 from "../images/meter.png";
 import image from "../images/partner2.jpeg";
-import Footer from "../component/Footer";
+import image4 from "../images/schedule.png";
 function PartnerPage() {
   return (
     <>
       <Navbar fixed={true} />
       <Wrapper>
         <PartnerpageHero />
-        <section className='why-section'>
-          <div className='why-container'>
+        <section className="why-section">
+          <div className="why-container">
             <h2>why partners choose us</h2>
-            <div className='whys'>
-              <div className='why'>
-                <div className='why-title'>
-                  <img src={image1} alt='' />
+            <div className="whys">
+              <div className="why">
+                <div className="why-title">
+                  <img src={image1} alt="" />
                   <h5>Fleet and Transfer Management</h5>
                 </div>
                 <p>
@@ -31,9 +31,9 @@ function PartnerPage() {
                   efficiency in fleet and transfer management.
                 </p>
               </div>
-              <div className='why'>
-                <div className='why-title'>
-                  <img src={image2} alt='' />
+              <div className="why">
+                <div className="why-title">
+                  <img src={image2} alt="" />
                   <h5>Increasing Efficiency</h5>
                 </div>
                 <p>
@@ -43,9 +43,9 @@ function PartnerPage() {
                   all the heavy lifting so you can focus on driving.
                 </p>
               </div>
-              <div className='why'>
-                <div className='why-title'>
-                  <img src={image3} alt='' />
+              <div className="why">
+                <div className="why-title">
+                  <img src={image3} alt="" />
                   <h5>Admin and Driver App</h5>
                 </div>
                 <p>
@@ -55,18 +55,18 @@ function PartnerPage() {
                 </p>
               </div>
             </div>
-            <button className='btn'>
-              <a href='3'>Become a Partner</a>
+            <button className="btn">
+              <a href="3">Become a Partner</a>
             </button>
           </div>
         </section>
-        <section className='benefits-hero partnerpage-hero'>
-          <img src={image} alt='' />
-          <div className='benefits-container '>
+        <section className="benefits-hero partnerpage-hero">
+          <img src={image} alt="" />
+          <div className="benefits-container ">
             <div>
               <h1>Benefits of Working With Us</h1>
-              <div className='benefit'>
-                <img src={image4} alt='' />
+              <div className="benefit">
+                <img src={image4} alt="" />
                 <div>
                   <h5>Set Your Own Schedule</h5>
                   <p>
@@ -77,8 +77,8 @@ function PartnerPage() {
                   </p>
                 </div>
               </div>
-              <div className='benefit'>
-                <img src={image5} alt='' />
+              <div className="benefit">
+                <img src={image5} alt="" />
                 <div>
                   <h5>Make Money on Your Terms</h5>
                   <p>
@@ -89,8 +89,8 @@ function PartnerPage() {
                   </p>
                 </div>
               </div>
-              <div className='benefit'>
-                <img src={image6} alt='' />
+              <div className="benefit">
+                <img src={image6} alt="" />
                 <div>
                   <h5>Lead the App Lead the Way</h5>
                   <p>
