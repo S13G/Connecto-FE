@@ -1,16 +1,16 @@
 import React from "react";
-import { FaChevronRight } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
-import styled from "styled-components";
+import { FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 function AirportInfo() {
   return (
     <Wrapper>
-      <div className='faq-section'>
-        <div className='faq-categories'>
+      <div className="faq-section">
+        <div className="faq-categories">
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -19,12 +19,12 @@ function AirportInfo() {
               </p>
             </div>
 
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -32,12 +32,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -45,12 +45,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -58,12 +58,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -71,12 +71,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -84,12 +84,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -97,12 +97,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -110,12 +110,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -123,12 +123,12 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
           <div>
-            <div className='left-info'>
+            <div className="left-info">
               <h4>
                 Split Airport <BsArrowRight /> Split
               </h4>
@@ -136,7 +136,7 @@ function AirportInfo() {
                 Price From <span>EUR 30.90</span>
               </p>
             </div>
-            <Link to='/transport'>
+            <Link to="/transport">
               <FaChevronRight />
             </Link>
           </div>
