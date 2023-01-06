@@ -1,9 +1,9 @@
 import React from "react";
 import image from "../../images/partner.jpeg";
-import styles from "./ptnrHero.module.scss";
+import "./ptnrHero.scss";
 function PartnerpageHero() {
   return (
-    <section className={styles["partnerpage-hero"]}>
+    <section className={"partnerpage-hero"}>
       <img src={image} alt="" />
       <div className="partnerpage-container">
         <div>

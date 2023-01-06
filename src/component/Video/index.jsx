@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegPlayCircle } from "react-icons/fa";
-import image from "../images/hero.jpeg";
-import Adventure from "./Adventure";
+import image from "./assets/hero.jpeg";
+import Adventure from "../Adventure";
 function Video() {
   return (
     <section className="container">

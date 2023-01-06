@@ -9,7 +9,7 @@ import Home from "./pages/HomePage";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />}></Route>
+      <Route path="/" element={<Home />} />
       <Route path="destinations" element={<DestinationsPage />} />
       <Route path="about" element={<AboutPage />} />
 

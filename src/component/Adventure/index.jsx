@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import image from "../images/hero.jpeg";
+import image from "./assets/hero.jpeg";
 function Adventure() {
   return (
     <section className="adventure-section container">

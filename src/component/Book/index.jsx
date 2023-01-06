@@ -4,22 +4,22 @@ import { FaRegUser } from "react-icons/fa";
 import { MdLocationPin } from "react-icons/md";
 import { TbArrowsRightLeft } from "react-icons/tb";
 import { VscCalendar } from "react-icons/vsc";
-import styles from "./book.module.scss";
+import "./book.scss";
 function Book() {
   const [typingFrom, setTypingFrom] = useState(false);
   const [typingTo, setTypingTo] = useState(false);
   return (
     // <Wrapper>
-    <section className={styles["book-section"]}>
-      <div className={styles["book-container"]}>
-        <button className={styles["btn-active"]}>with return</button>
+    <section className={"book-section"}>
+      <div className={"book-container"}>
+        <button className={"btn-active"}>with return</button>
         <button>one way</button>
-        <form className={styles["book-form"]}>
-          <div className={styles["from-cont"]}>
+        <form className={"book-form"}>
+          <div className={"from-cont"}>
             <MdLocationPin />
             <input
               type="text"
-              className={styles["from"]}
+              className={"from"}
               placeholder="from"
               onKeyUp={() => {
                 setTypingFrom(true);
@@ -30,34 +30,34 @@ function Book() {
               className={`${typingFrom ? "options show-option " : "options "}`}
               onClick={() => setTypingFrom(false)}
             >
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
             </ul>
           </div>
           <TbArrowsRightLeft />
-          <div className={styles["from-cont"]}>
+          <div className={"from-cont"}>
             <MdLocationPin />
             <input
               type="text"
-              className={styles["to"]}
+              className={"to"}
               placeholder="to"
               onKeyUp={() => {
                 setTypingTo(true);
@@ -74,59 +74,50 @@ function Book() {
                 setTypingTo(false);
               }}
             >
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
-              <li className={styles["option"]}>
+              <li className={"option"}>
                 {" "}
                 <MdLocationPin /> Portugal
               </li>
             </ul>
           </div>
-          <div className={styles["departure-cont"]}>
-            <div className={styles["from-cont"]}>
+          <div className={"departure-cont"}>
+            <div className={"from-cont"}>
               <VscCalendar />
               <input
                 type="date"
-                className={styles["departure"]}
+                className={"departure"}
                 placeholder="departure"
               />
             </div>
 
             <div className="from-cont">
-              <input
-                type="date"
-                className={styles["return"]}
-                placeholder="return"
-              />
+              <input type="date" className={"return"} placeholder="return" />
             </div>
           </div>
-          <div className={styles["people-cont"]}>
-            <div className={styles["from-cont"]}>
-              <AiOutlineMinus className={styles["count"]} />
+          <div className={"people-cont"}>
+            <div className={"from-cont"}>
+              <AiOutlineMinus className={"count"} />
               <FaRegUser />
-              <input
-                type="text"
-                readOnly
-                className={styles["people"]}
-                value="5"
-              />
-              <AiOutlinePlus className={styles["count"]} />
+              <input type="text" readOnly className={"people"} value="5" />
+              <AiOutlinePlus className={"count"} />
             </div>
-            <button type="submit" className={styles["from-cont"]}>
+            <button type="submit" className={"from-cont"}>
               see prices
             </button>
           </div>

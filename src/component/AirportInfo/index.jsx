@@ -1,15 +1,15 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { FaChevronRight } from "react-icons/fa";
-import styles from "./airportInfo.module.scss";
 import { Link } from "react-router-dom";
+import "./airportInfo.scss";
 
 function AirportInfo() {
   return (
-    <div className={styles["faq-section"]}>
-      <div className={styles["faq-categories"]}>
+    <div className={"faq-section"}>
+      <div className={"faq-categories"}>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -23,7 +23,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -36,7 +36,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -49,7 +49,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -62,7 +62,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -75,7 +75,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -88,7 +88,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -101,7 +101,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -114,7 +114,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>
@@ -127,7 +127,7 @@ function AirportInfo() {
           </Link>
         </div>
         <div>
-          <div className={styles["left-info"]}>
+          <div className={"left-info"}>
             <h4>
               Split Airport <BsArrowRight /> Split
             </h4>

@@ -8,17 +8,17 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 // import styled from "styled-components";
-import styles from "./footer.module.scss";
+import "./footer.scss";
 
 function Footer() {
   return (
     // <Wrapper>
-    <footer className={styles.footer}>
-      <div className={styles["footer-container"]}>
+    <footer className="footer">
+      <div className={"footer-container"}>
         <div className="footer-content">
           <div>
             <h3>Social Media</h3>
-            <ul className={styles["social-links"]}>
+            <ul className={"social-links"}>
               <li>
                 <a href="www.facebook.com" target="blank">
                   <FaFacebook /> Facebook
@@ -56,7 +56,7 @@ function Footer() {
           </div>
           <div>
             <h3>Explore/More</h3>
-            <ul className={styles["footer-links"]}>
+            <ul className={"footer-links"}>
               <li>
                 <Link to="/destination">Destinations</Link>
               </li>

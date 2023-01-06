@@ -1,9 +1,9 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
-import image from "../images/hero.jpeg";
-import Book from "./Book";
-import HomeDestinations from "./HomeDestinations";
-import Navbar from "./Navbar";
+import image from "./assets/hero.jpeg";
+import Book from "../Book";
+import HomeDestinations from "../HomeDestinations";
+import Navbar from "../Navbar";
 function Hero({ form }) {
   return (
     <>

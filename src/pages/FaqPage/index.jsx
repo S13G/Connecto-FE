@@ -1,9 +1,8 @@
 import React from "react";
-import FaqHero from "../../component/FaqHero";
-import image from "../../images/hero.jpeg";
 import { FaChevronRight, FaSearch } from "react-icons/fa";
 import Navbar from "../../component/Navbar";
-import styles from "./faq.module.scss";
+import image from "./assets/hero.jpeg";
+import "./faq.scss";
 
 function FAQ() {
   return (
@@ -14,7 +13,7 @@ function FAQ() {
       </div>
       <div className="faqhero-container">
         <Navbar />
-        <div className={styles["faqhero-contents"]}>
+        <div className={"faqhero-contents"}>
           <h1>help & support</h1>
           <h4>Find an answer to anything you need in our knowledge base</h4>
           <div className="faq-inputs">

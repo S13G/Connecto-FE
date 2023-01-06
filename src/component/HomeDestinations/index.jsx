@@ -2,19 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Booking from "../Booking";
 import Destinations from "../Destinations";
-import styles from "./homeDestination.module.scss";
+import "./homeDestination.scss";
 function HomeDestinations({ main }) {
   return (
     <>
       {/* <Wrapper> */}
-      <section className={styles["home-destination"]}>
-        <div className={styles["home-destination-container"]}>
+      <section className={"home-destination"}>
+        <div className={"home-destination-container"}>
           {main && <h2>anywhere your mind takes you</h2>}
           {main && (
             <h4>go beyond regular service when driving with connecto!</h4>
           )}
 
-          <Destinations className={styles["home-destinations"]} />
+          <Destinations className={"home-destinations"} />
           {main && (
             <button>
               <Link to="/destinations">see all destinations</Link>

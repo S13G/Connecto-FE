@@ -1,8 +1,8 @@
 import React from "react";
-import image2 from "../images/driver.png";
-import image1 from "../images/transfer.png";
-import image3 from "../images/vacation.png";
-import Video from "./Video";
+import image2 from "./assets/driver.png";
+import image1 from "./assets/transfer.png";
+import image3 from "./assets/vacation.png";
+import Video from "../Video";
 function Booking() {
   return (
     <>
