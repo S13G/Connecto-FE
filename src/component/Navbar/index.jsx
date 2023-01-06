@@ -7,7 +7,7 @@ function Navbar() {
   const [useScroll, setUseScroll] = React.useState(false);
 
   const changeNavEffect = () => {
-    if (window.scrollY >= 35) {
+    if (window.scrollY >= 5) {
       setUseScroll(true);
     } else {
       setUseScroll(false);

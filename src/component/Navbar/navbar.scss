@@ -1,9 +1,14 @@
 .navbar {
-  padding: 20px 20px;
+  padding: 10px 2rem;
   padding-bottom: 0;
   background-color: transparent;
   border-bottom: 1px solid #fff;
- 
+  height: 80px;
+  transition: background-color 0.1s ease 0s;
+  -webkit-transition: background-color 0.1s ease 0s;
+  -moz-transition: background-color 0.1s ease 0s;
+  -ms-transition: background-color 0.1s ease 0s;
+  -o-transition: background-color 0.1s ease 0s;
   .nav-container {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -80,14 +85,14 @@
 
 .navbar.active {
   background-color: #fff;
-  box-shadow: 2px 3px 30px #ccc;
+  box-shadow: 0 15px 35px -10px rgb(54 59 76 / 20%);
   z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   top: 0;
-  
+
   .nav-links {
     .nav-link {
       a {
