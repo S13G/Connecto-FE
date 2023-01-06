@@ -4,10 +4,10 @@ import image from "../images/hero.jpeg";
 import Adventure from "./Adventure";
 function Video() {
   return (
-    <section className='container'>
-      <div className='video-section'>
-        <img src={image} alt='' />
-        <div className='video-info'>
+    <section className="container">
+      <div className="video-section">
+        <img src={image} alt="" />
+        <div className="video-info">
           <div>
             <h2>see how we're improving the way you travel</h2>
             <h4>connecting the world for over a decade</h4>

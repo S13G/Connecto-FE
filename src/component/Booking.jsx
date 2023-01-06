@@ -1,17 +1,17 @@
 import React from "react";
-import image1 from "../images/transfer.png";
 import image2 from "../images/driver.png";
+import image1 from "../images/transfer.png";
 import image3 from "../images/vacation.png";
 import Video from "./Video";
 function Booking() {
   return (
     <>
-      <div className='booking-process container'>
+      <div className="booking-process container">
         <h2>simple booking process</h2>
         <h4>a service designed with simplicity in Mind</h4>
-        <div className='bookings'>
-          <div className='single-booking'>
-            <img src={image1} alt='book your transfers' />
+        <div className="bookings">
+          <div className="single-booking">
+            <img src={image1} alt="book your transfers" />
             <h3>
               <span>1</span> book your transfers
             </h3>
@@ -20,8 +20,8 @@ function Booking() {
               transfer from the comfort of your home, in a matter of minutes!
             </p>
           </div>
-          <div className='single-booking'>
-            <img src={image2} alt='book your transfers' />
+          <div className="single-booking">
+            <img src={image2} alt="book your transfers" />
             <h3>
               <span>2</span> meet your driver
             </h3>
@@ -30,8 +30,8 @@ function Booking() {
               at the pick-up spot you specified.
             </p>
           </div>
-          <div className='single-booking'>
-            <img src={image3} alt='book your transfers' />
+          <div className="single-booking">
+            <img src={image3} alt="book your transfers" />
             <h3>
               <span>3</span> enjoy your vacation
             </h3>

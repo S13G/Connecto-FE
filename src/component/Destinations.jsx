@@ -3,7 +3,7 @@ import SingleDestination from "./SingleDestination";
 
 function Destinations() {
   return (
-    <div className='home-destinations'>
+    <div className="home-destinations">
       <SingleDestination />
       <SingleDestination />
       <SingleDestination />

@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../component/Footer";
-import Hero from "../component/Hero";
+import Hero from "../../component/Hero";
+import Footer from "../../component/Footer";
 
 function DestinationsPage() {
   return (

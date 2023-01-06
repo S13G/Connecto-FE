@@ -1,8 +1,8 @@
 import React from "react";
 import { FaChevronRight, FaSuitcase } from "react-icons/fa";
-import Book from "../component/Book";
-import Footer from "../component/Footer";
-import Navbar from "../component/Navbar";
+import Book from "../../component/Book";
+import Footer from "../../component/Footer";
+import Navbar from "../../component/Navbar";
 
 function SingleTransport() {
   return (
