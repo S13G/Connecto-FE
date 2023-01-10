@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import SearchForm from "../SearchForm";
 import image from "./assets/hero.jpeg";
-function Hero({ form }) {
+function Hero() {
   return (
     <section className="hero-section">
       <div className="img-container">
@@ -16,7 +16,6 @@ function Hero({ form }) {
           <h4>Safe, Reliable and More Affordable Airport Transfers</h4>
         </div>
       </div>
-      {/* {form ? <Book /> : <HomeDestinations main={false} />} */}
       <div className="search">
         <SearchForm />
       </div>
@@ -25,12 +24,3 @@ function Hero({ form }) {
 }
 
 export default Hero;
-
-// {
-//   form || (
-//     <div className="hero-input">
-//       <input type="text" placeholder="Find your destination" />
-//       {/* <FaSearch /> */}
-//     </div>
-//   );
-// }

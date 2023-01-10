@@ -7,7 +7,7 @@ import Tripad from "../../component/Tripad";
 function Home() {
   return (
     <>
-      <Hero form={false} />
+      <Hero />
       <Tripad />
       <HomeDestinations main={true} />
 

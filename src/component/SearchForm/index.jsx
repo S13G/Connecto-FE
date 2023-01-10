@@ -33,13 +33,13 @@ const SearchForm = () => {
       <form className={`search-form ${activebtn === "oneway" ? "btop" : ""}`}>
         <div className="search-form-input">
           <MdLocationPin className="google-start-pointing" />
-          <input type="text" placeholder="From" />
+          <input type="text" placeholder="Aiport, town, hotel" />
         </div>
         <TbArrowsRightLeft className="arrows" />
 
         <div className="search-form-input">
           <MdLocationPin className="google-start-pointing" />
-          <input type="text" placeholder="To" />
+          <input type="text" placeholder="Aiport, town, hotel" />
         </div>
         <div className="search-form-input">
           <VscCalendar className="google-start-pointing cal" />
