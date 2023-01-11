@@ -415,19 +415,19 @@ button a {
 }
 .cta-btn {
   background-color: #4e7ff1;
-    width: max-content;
-    border-radius: 8px;
-    border: 0;
-    height: 48px;
-    color: #fff;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    box-shadow: 0 0 15px -3px rgb(78 127 241 / 50%);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: 0;
-    transition: all .25s linear;
+  width: max-content;
+  border-radius: 8px;
+  border: 0;
+  height: 48px;
+  color: #fff;
+  padding: 0 1rem;
+  box-shadow: 0 0 15px -3px rgb(78 127 241 / 50%);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  transition: all 0.25s linear;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
 .other-vehicles {
