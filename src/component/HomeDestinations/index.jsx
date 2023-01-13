@@ -9,8 +9,8 @@ function HomeDestinations({ main }) {
       <section className={"home-destination"}>
         <div className={"home-destination-container"}>
           <h2>anywhere your mind takes you</h2>
-          <h4>go beyond regular service when driving with connecto!</h4>
-          <Destinations className={"home-destinations"} />
+          <h4>go beyond regular service when driving with Connecto!</h4>
+          <Destinations />
 
           <Link className="cta-btn" to="/destinations">
             see all destinations
