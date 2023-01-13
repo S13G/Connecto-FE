@@ -20,6 +20,7 @@ a {
   --main-color: #5e616f;
   --max-width: 1100px;
   --useTransition: all 0.3s ease-in-out;
+  --white: #fff;
 }
 
 .hero-contents {
@@ -420,7 +421,7 @@ button a {
   border: 0;
   height: 48px;
   color: #fff;
-  padding: 0 1rem;
+  padding: 1rem;
   box-shadow: 0 0 15px -3px rgb(78 127 241 / 50%);
   -webkit-appearance: none;
   -moz-appearance: none;

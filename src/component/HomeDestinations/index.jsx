@@ -6,23 +6,17 @@ import "./homeDestination.scss";
 function HomeDestinations({ main }) {
   return (
     <>
-      {/* <Wrapper> */}
       <section className={"home-destination"}>
         <div className={"home-destination-container"}>
-          {main && <h2>anywhere your mind takes you</h2>}
-          {main && (
-            <h4>go beyond regular service when driving with connecto!</h4>
-          )}
+          <h2>anywhere your mind takes you</h2>
+          <h4>go beyond regular service when driving with Connecto!</h4>
+          <Destinations />
 
-          <Destinations className={"home-destinations"} />
-          {main && (
-            <button>
-              <Link to="/destinations">see all destinations</Link>
-            </button>
-          )}
+          <Link className="cta-btn" to="/destinations">
+            see all destinations
+          </Link>
         </div>
       </section>
-      {/* </Wrapper> */}
       {main && <Booking />}
     </>
   );
