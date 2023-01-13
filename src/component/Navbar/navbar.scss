@@ -1,0 +1,115 @@
+.navbar {
+  padding: 10px 2rem;
+  padding-bottom: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  height: 80px;
+  transition: background-color 0.1s ease 0s;
+  -webkit-transition: background-color 0.1s ease 0s;
+  -moz-transition: background-color 0.1s ease 0s;
+  -ms-transition: background-color 0.1s ease 0s;
+  -o-transition: background-color 0.1s ease 0s;
+  .nav-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .home-link {
+      img {
+        margin: 0;
+        height: 40px;
+      }
+      .activeImg {
+        display: none;
+      }
+      .defaultImg {
+        display: block;
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+
+      .nav-link {
+        margin: 0 20px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        position: relative;
+        padding-bottom: 20px;
+      }
+      .nav-link ::before {
+        content: "";
+        background-color: var(--border-color);
+        height: 5px;
+        border-radius: 10px;
+        width: 100%;
+        position: absolute;
+        bottom: -3px;
+
+        transform: scaleX(0);
+        opacity: 0;
+      }
+      .nav-link:hover ::before {
+        transform: scaleX(1);
+        opacity: 1;
+        transition: 0.3s ease-in-out;
+      }
+      .nav-link a {
+        color: #fff;
+      }
+      .active-nav {
+        transform: scaleX(1);
+        opacity: 1;
+        transition: 0.3s ease-in-out;
+      }
+      .hrs {
+        padding-bottom: 20px;
+        margin: 0 20px;
+        width: 30px;
+      }
+      .top-hr,
+      .bottom-hr {
+        border: 0;
+        height: 6px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 4px 0;
+      }
+    }
+  }
+}
+
+.navbar.active {
+  background-color: #fff;
+  box-shadow: 0 15px 35px -10px rgb(54 59 76 / 20%);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  .nav-links {
+    .nav-link {
+      a {
+        color: var(--main-color) !important;
+      }
+    }
+    .top-hr,
+    .bottom-hr {
+      background-color: var(--main-color) !important;
+    }
+  }
+  .home-link {
+    .activeImg {
+      display: block;
+    }
+    .defaultImg {
+      display: none;
+    }
+  }
+}
